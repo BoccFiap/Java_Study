@@ -1,6 +1,6 @@
 package nivelBasico;
 
-public class Arrays {
+public class ArraysPart1 {
   public static void main(String[] args) {
 
     String[] ninja = new String[6];

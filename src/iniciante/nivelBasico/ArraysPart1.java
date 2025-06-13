@@ -1,4 +1,4 @@
-package nivelBasico;
+package iniciante.nivelBasico;
 
 public class ArraysPart1 {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package intermediario;
+package intermediario.PrimeiraEtapa;
 
 public class Main {
   public static void main(String[] args) {

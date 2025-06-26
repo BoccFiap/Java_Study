@@ -1,4 +1,4 @@
-package intermediario;
+package intermediario.PrimeiraEtapa;
 
 public class Haruno extends Ninja {
 

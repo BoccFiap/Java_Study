@@ -3,35 +3,44 @@ package intermediario;
 public class Main {
   public static void main(String[] args) {
 
-    // Criar um ninja
-    Ninja Naruto = new Ninja();
-
-
-    Naruto.name = "Naruto Uchiha";
+    // Objeto 1
+    Uzumaki Naruto = new Uzumaki();
+    Naruto.name = "Naruto Uzumaki";
     Naruto.village = "Aldeia da folha";
     Naruto.age = 17;
+    Naruto.SageModeactivated();
 
-    // Criar o Sasuke
-    Ninja Sasuke = new Ninja();
+    // Objeto 2
+    Uchiha Sasuke = new Uchiha();
     Sasuke.name = "Sasuke Uchicha";
     Sasuke.village = "Aldeia da Folha";
     Sasuke.age = 16;
-
-    //Apicando Metodos aos meus objetos
     Sasuke.SharinganActivated();
-    String callingMethod = Sasuke.IamANinja();
-    System.out.println(callingMethod);
 
-    int howMuchtimeIsLeft = Sasuke.YearsToBecomeHokage(50);
-    System.out.print( Sasuke.name+ " you have: " +Sasuke.age+ " so at least: " +howMuchtimeIsLeft+ " Years left to become Hokage");
-
-
-    // Criar a Sakura
-    Ninja Sakura = new Ninja();
+    // Objeto 3
+    Haruno Sakura = new Haruno();
     Sakura.name = "Sakura Haruno";
     Sakura.village = "Aldeia da Folha";
     Sakura.age = 15;
+    Sakura.ActivateHealing();
 
+    // Objeto 4
+    Hyuga Hinata = new Hyuga();
+    Sakura.name = "Hinata Hyuga";
+    Sakura.village = "Aldeia da Folha";
+    Sakura.age = 16;
+    Hinata.ActivateByakugan();
+
+
+
+    //Apicando Metodos aos meus objetos
+    /*
+    String callingMethod = Hinata.IamANinja();
+    System.out.println(callingMethod);
+
+    int howMuchtimeIsLeft = Sasuke.YearsToBecomeHokage(50);
+    System.out.print( Hinata.name+ " you have: " +Hinata.age+ " so at least: " +howMuchtimeIsLeft+ " Years left to become Hokage");
+    */
 
   }
 }

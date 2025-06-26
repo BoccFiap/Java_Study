@@ -12,9 +12,8 @@ public class Ninja {
   /*
     O metodo VOID nao retorna nenhum valor
    */
-  public void SharinganActivated() {
-    System.out.println("The Sharingan has been activated.\n");
-  }
+  //public void <MetodoVoid>(){}
+
 
   /*
     O metodo String, Int, Boolean.. precisa retornar ele mesmo

@@ -31,6 +31,15 @@ public class Main {
     Sakura.age = 16;
     Hinata.ActivateByakugan();
 
+    Boruto Boruto = new Boruto();
+    Boruto.name = "Boruto Hyuga Uzumaki";
+    Boruto.village = "Aldeia da folha";
+    Boruto.age = 9;
+
+    Boruto.SageModeactivated();
+    Boruto.ActivateJourgan();
+    Boruto.ActivateKarma();
+
 
 
     //Apicando Metodos aos meus objetos
